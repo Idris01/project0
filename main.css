@@ -1,0 +1,15 @@
+body {
+  background-color: #00b7ff; }
+
+@media (min-width: 768px) {
+  h1::after {
+    content: " POULTRY FARM"; } }
+@media (max-width: 767px) {
+  h1::after {
+    content: " FARM"; } }
+h1 {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #2a2a2a; }
+
+/*# sourceMappingURL=main.css.map */
