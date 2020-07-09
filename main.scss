@@ -1,22 +1,79 @@
-$firstColor: rgb(0, 183, 255);
+$firstColor: rgb(148, 83, 112);
+$headerBgColor: rgb(123, 199, 167);
+$bigContent:"Brooding for healthy consumption...";
+$smallContent:"Brooding heathily...";
+
 
 body{
+    padding: 10px;
     background-color: $firstColor;
+    width:80%;
+    margin:0 auto;
 }
 @media(min-width:768px){
     h1::after{
         content: " POULTRY FARM";
     }
+    .myFooter::after{
+        content:$bigContent;
     
+}
 }
 @media(max-width:767px){
     h1::after{
         content:  " FARM";
     }
+    .myFooter::after{
+        content:$smallContent;
+    }
     
 }
+.myFooter{
+    font-style: italic;
+    text-align:center;
+    min-height: 50px;
+}
+
 h1{
     text-align: center;
-    font-family: 'Cinzel Decorative', cursive;
     color: #2a2a2a;
+    background-color: rgb(123, 199, 167);
 }
+main,aside{
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    background-color: whitesmoke;
+}
+aside{
+    background-color: springgreen;
+}
+#photos{
+   
+    row-gap: 5px;
+   
+    
+}
+h1,h2,h3,h4{
+    font-family:courier,arial,helvetica;
+    font-weight: bold;
+}
+header,footer{
+    min-height: 30px;
+    text-align:center;
+    background-color: $headerBgColor;
+}
+hr{
+    position: relative; 
+    top: 2px; 
+    border: none; 
+    height: 2px; 
+    background: $firstColor;
+}
+address{
+    text-align: left;
+}
+

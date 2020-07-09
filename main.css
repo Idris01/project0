@@ -1,15 +1,63 @@
 body {
-  background-color: #00b7ff; }
+  padding: 10px;
+  background-color: #945370;
+  width: 80%;
+  margin: 0 auto; }
 
 @media (min-width: 768px) {
   h1::after {
-    content: " POULTRY FARM"; } }
+    content: " POULTRY FARM"; }
+
+  .myFooter::after {
+    content: "Brooding for healthy consumption..."; } }
 @media (max-width: 767px) {
   h1::after {
-    content: " FARM"; } }
+    content: " FARM"; }
+
+  .myFooter::after {
+    content: "Brooding heathily..."; } }
+.myFooter {
+  font-style: italic;
+  text-align: center;
+  min-height: 50px; }
+
 h1 {
   text-align: center;
-  font-family: 'Cinzel Decorative', cursive;
-  color: #2a2a2a; }
+  color: #2a2a2a;
+  background-color: #7bc7a7; }
+
+main, aside {
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+  padding: 10px; }
+
+main {
+  background-color: whitesmoke; }
+
+aside {
+  background-color: springgreen; }
+
+#photos {
+  row-gap: 5px; }
+
+h1, h2, h3, h4 {
+  font-family: courier,arial,helvetica;
+  font-weight: bold; }
+
+header, footer {
+  min-height: 30px;
+  text-align: center;
+  background-color: #7bc7a7; }
+
+hr {
+  position: relative;
+  top: 2px;
+  border: none;
+  height: 2px;
+  background: #945370; }
+
+address {
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
